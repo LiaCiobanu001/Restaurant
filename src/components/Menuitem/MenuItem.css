@@ -1,0 +1,34 @@
+.app__munuitem {
+    width : 100%;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.app__munuitem-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__munuitem-sub {
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+.app__munuitem-name {
+    flex: 1;
+}
+
+.app__munuitem-dash {
+    width: 90px;
+    height: 1px;
+    background: var(--color-golden);
+    margin: 0 1rem;
+}
+
+.app__munuitem-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
